@@ -89,10 +89,6 @@ public class Activity {
         return timeSlot;
     }
 
-    public void setTimeSlot(Set<TimeSlot> timeSlot) {
-        this.timeSlot = timeSlot;
-    }
-
     public Set<Participant> getParticipants() {
         return participants;
     }
